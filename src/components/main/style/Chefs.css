@@ -1,0 +1,24 @@
+#chefs{
+    height: 304px;
+    background-color: rgb(236, 236, 236);
+}
+.content{
+    width: 771px;
+    height: 100%;
+    margin: auto;
+    line-height: 304px;
+    overflow: hidden;
+}
+.discription{
+    display: inline-block;
+    width: 500px;
+    text-align: start;
+    margin-right: 30px;
+    line-height: 25px;
+}
+strong{
+    text-decoration: underline;
+}
+#chefs img{
+    float: right;
+}
