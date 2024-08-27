@@ -1,15 +1,15 @@
-import "./style/Icon_title.css";
+import { IconTitle } from "./style/Icon_title";
 
 const Icon_title = () => {
   return (
-    <div id="icon_title">
+    <IconTitle>
       "WHAT'S FOR DINNER" <br />
       <strong>
         FINALLY HAS AN
         <br />
         EASY ANSWER
       </strong>
-    </div>
+    </IconTitle>
   );
 };
 

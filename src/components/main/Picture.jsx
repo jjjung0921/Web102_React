@@ -1,11 +1,11 @@
 import photo from "../../assets/main.png"
-import "./style/Picture.css"
+import { PictureBox } from "./style/Picture";
 
 const Picture = () => {
     return(
-        <div id="picture">
+        <PictureBox>
             <img src={photo} alt="main"/>
-        </div>
+        </PictureBox>
     )
 }
 

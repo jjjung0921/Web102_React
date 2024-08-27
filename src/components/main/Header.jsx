@@ -1,11 +1,11 @@
 import Item from "./Item";
 import logo from "../../assets/logo.png";
-import "./style/Header.css"
+import { HeaderBox, ListItem } from "./style/Header";
 
 const Header = () => {
     return(
-        <div id="header">
-            <div id="list_item">
+        <HeaderBox>
+            <ListItem id="list_item">
                 <Item title={"How it works"}/>
                 <Item title={"Gifts"}/>
                 <Item title={"About"} link={"/about"}/>
@@ -13,8 +13,8 @@ const Header = () => {
                 <Item title={"Login"}/>
                 <Item title={"Members"}/>
                 <Item title={"Contracts"}/>
-            </div>
-        </div>
+            </ListItem>
+        </HeaderBox>
     )
 }
 
